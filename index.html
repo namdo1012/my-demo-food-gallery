@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light better-bootstrap-nav-left"
+    >
+      <a class="navbar-brand" href="#">Foodo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Foodo Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Gallery</a>
+          </li>
+        </ul>
+        <div class="navbar-nav mr-0">
+          <button
+            type="button"
+            class="btn btn-outline-secondary  button-signin"
+          >
+            Sign In
+          </button>
+          <button
+            type="button"
+            class="btn btn-outline-secondary button-register"
+          >
+            Register
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <section class="section-gallery">
+      <h1>Foodo Gallery</h1>
+      <div class="row">
+        <div
+          class="col-12 col-md-6 col-lg-4 img__container img__container--1 d-flex flex-column"
+        >
+          <div class="div-img">
+            <img src="gallery-img/img-12.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="div-img">
+            <img src="gallery-img/img-2.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="div-img">
+            <img src="gallery-img/img-3.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="div-img">
+            <img src="gallery-img/img-4.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-4 img__container img__container--2 flex-column"
+        >
+          <div class="div-img">
+            <img src="gallery-img/img-5.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="div-img">
+            <img src="gallery-img/img-6.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="div-img">
+            <img src="gallery-img/img-7.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="div-img">
+            <img src="gallery-img/img-8.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-lg-4 img__container img__container--3 flex-column"
+        >
+          <div class="div-img">
+            <img src="gallery-img/img-1.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="div-img">
+            <img src="gallery-img/img-10.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="div-img">
+            <img src="gallery-img/img-11.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="div-img">
+            <img src="gallery-img/img-12.jpg" />
+            <div class="img__like-button">
+              <ion-icon name="heart" class="img__like-icon"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script>
+    ScrollReveal().reveal(".div-img");
+  </script>
+</html>
